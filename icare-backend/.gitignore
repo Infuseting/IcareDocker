@@ -1,0 +1,125 @@
+# compiled output
+icare-backend/dist
+icare-backend/node_modules
+icare-backend/build
+
+# Logs
+icare-backend/logs
+icare-backend/*.log
+icare-backend/npm-debug.log*
+icare-backend/pnpm-debug.log*
+icare-backend/yarn-debug.log*
+icare-backend/yarn-error.log*
+icare-backend/lerna-debug.log*
+
+# OS
+icare-backend/.DS_Store
+
+# Tests
+icare-backend/coverage
+icare-backend/.nyc_output
+
+# IDEs and editors
+/.idea
+icare-backend/.project
+icare-backend/.classpath
+icare-backend/.c9/
+icare-backend/*.launch
+icare-backend/.settings/
+icare-backend/*.sublime-workspace
+
+# IDE - VSCode
+icare-backend/.vscode/*
+icare-backend/!.vscode/settings.json
+icare-backend/!.vscode/tasks.json
+icare-backend/!.vscode/launch.json
+icare-backend/!.vscode/extensions.json
+
+# dotenv environment variable files
+icare-backend/.env
+icare-backend/.env.development.local
+icare-backend/.env.test.local
+icare-backend/.env.production.local
+icare-backend/.env.local
+
+# temp directory
+icare-backend/.temp
+icare-backend/.tmp
+
+# Runtime data
+icare-backend/pids
+icare-backend/*.pid
+icare-backend/*.seed
+icare-backend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+icare-backend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# compiled output
+icare-frontend/dist
+icare-frontend/node_modules
+icare-frontend/build
+
+# Logs
+icare-frontend/logs
+icare-frontend/*.log
+icare-frontend/npm-debug.log*
+icare-frontend/pnpm-debug.log*
+icare-frontend/yarn-debug.log*
+icare-frontend/yarn-error.log*
+icare-frontend/lerna-debug.log*
+
+# OS
+icare-frontend/.DS_Store
+
+# Tests
+icare-frontend/coverage
+icare-frontend/.nyc_output
+
+# IDEs and editors
+/.idea
+icare-frontend/.project
+icare-frontend/.classpath
+icare-frontend/.c9/
+icare-frontend/*.launch
+icare-frontend/.settings/
+icare-frontend/*.sublime-workspace
+
+# IDE - VSCode
+icare-frontend/.vscode/*
+icare-frontend/!.vscode/settings.json
+icare-frontend/!.vscode/tasks.json
+icare-frontend/!.vscode/launch.json
+icare-frontend/!.vscode/extensions.json
+
+# dotenv environment variable files
+icare-frontend/.env
+icare-frontend/.env.development.local
+icare-frontend/.env.test.local
+icare-frontend/.env.production.local
+icare-frontend/.env.local
+
+# temp directory
+icare-frontend/.temp
+icare-frontend/.tmp
+
+# Runtime data
+icare-frontend/pids
+icare-frontend/*.pid
+icare-frontend/*.seed
+icare-frontend/*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+icare-frontend/report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+/icare-backend/node_modules/
+/icare-frontend/node_modules/
+/icare-frontend/.nuxt/
+/node_modules/
+/.idea/
+/icare-backend/dist/
+icare-backend/node_modules/
+icare-frontend/.nuxt/
+icare-frontend/node_modules/
+node_modules/
+
+node_modules/

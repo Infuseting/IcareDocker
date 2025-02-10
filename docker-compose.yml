@@ -1,0 +1,44 @@
+services:
+  db:
+    image: mysql:8
+    container_name: icare-mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: icare
+      MYSQL_USER: icare_user
+      MYSQL_PASSWORD: icare_pass
+
+    networks:
+      - icare-network
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+
+  backend:
+    build: ./icare-backend
+    container_name: icare-backend
+    depends_on:
+      - db
+    environment:
+      DATABASE_URL: mysql://root:root@127.0.0.1:3306/icare
+    ports:
+      - "3001:3000"
+    networks:
+      - icare-network
+
+  frontend:
+    build: ./icare-frontend
+    container_name: icare-frontend
+    depends_on:
+      - backend
+    ports:
+      - "8080:8000"
+    networks:
+      - icare-network
+networks:
+  icare-network:
+    driver: bridge
+volumes:
+  db-data:
